@@ -31,8 +31,11 @@ export function initSearch(people) { // rör ej denna rad
  found =true
   }
     // 6. Om du efter loopen inte hittat något, skriv ut "Namn hittades inte." och gör found till false igen.
-  if (!found)
-    resultDisplay.innerHTML= "Namn hittades inte!"
+  if (!found){
+  resultDisplay.innerHTML= "Namn hittades inte!"
+  found=false
+  }
+    
   }
  } );
 }
