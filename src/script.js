@@ -1,11 +1,5 @@
 // Definera array av namn
-let people = [
-  "Victor", 
-  "Lisa",
-  "Mira", 
-  "Majken", 
-  "Sam"
-];
+let people = ["Victor", "Lisa","Mira", "Majken", "Sam"];
 
 
 export function initSearch(people) { // rör ej denna rad
@@ -30,13 +24,13 @@ export function initSearch(people) { // rör ej denna rad
  resultDisplay.innerHTML= "Namn hittades:" + name
  found =true
   }
+    }
     // 6. Om du efter loopen inte hittat något, skriv ut "Namn hittades inte." och gör found till false igen.
   if (!found){
   resultDisplay.innerHTML= "Namn hittades inte!"
-  found=false
   }
     
-  }
+  
  } );
 }
 
