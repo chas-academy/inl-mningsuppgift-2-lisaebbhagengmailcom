@@ -21,13 +21,13 @@ export function initSearch(people) { // rör ej denna rad
     // 4. Jämför texten med varje namn i arrayen
   if (person===name){
     // 5. Om du hittar en match, skriv ut "Namn hittades!" i resultDisplay, ändra found till true
- resultDisplay.innerHTML= "Namn hittades:" + name
+ resultDisplay.innerHTML= "Namn hittades: " + name
  found =true
   }
     }
     // 6. Om du efter loopen inte hittat något, skriv ut "Namn hittades inte." och gör found till false igen.
   if (!found){
-  resultDisplay.innerHTML= "Namn hittades inte!"
+  resultDisplay.innerHTML= "Namn hittades inte."
   }
     
   
